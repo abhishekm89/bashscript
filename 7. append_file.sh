@@ -24,6 +24,6 @@ else
     then
         echo "You have entered an invalid option"
     else
-        echo "Script Terminated"
+        echo "Script has been Terminated"
     fi
 fi
