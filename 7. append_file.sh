@@ -10,16 +10,17 @@ then
     echo $fileText >> $filename
 
 else
-    echo "File doesnt exist. Do you want to create a new file? [Y/N]"
+    echo "File doesnt exist. Do you want to create a new file? [yes/no]"
+
     read str1
-    if [ "$str1" == "Y" ] || [ "$str1" == "y" ]
+    if [ "$str1" == "yes" ] ]
     then
         touch $filename
         echo "File Created"
 	echo "Enter the text to Write into a File."
 	read fileText1
 	echo $filetext1 >> $filename
-    elif [ "$str1" != "Y" ] || [ "$str1" != "y" ] ||  ["$str1" != "N" ] [ "$str1" != "n" ]
+    elif [ "$str1" != "yes" ] || [ "$str1" !== "no" ]
     then
         echo "Invalid Entry"
     else
