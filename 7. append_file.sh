@@ -13,7 +13,7 @@ else
     echo "File doesnt exist. Do you want to create a new file? [yes/no]"
 
     read str1
-    if [ "$str1" == "yes" ] ]
+    if [ "$str1" == "yes" ] 
     then
         touch $filename
         echo "File Created"
@@ -22,7 +22,7 @@ else
 	echo $filetext1 >> $filename
     elif [ "$str1" != "yes" ] || [ "$str1" !== "no" ]
     then
-        echo "Invalid Entry"
+        echo "You have entered an invalid option"
     else
         echo "Script Terminated"
     fi
