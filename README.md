@@ -14,3 +14,4 @@
 7. Append File 
 
 ## Checking append File enhancement feature
+## SSH-KEY added into local machine. TESTING 
