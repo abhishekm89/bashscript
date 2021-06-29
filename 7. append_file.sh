@@ -20,6 +20,7 @@ else
 	echo "Enter the text to Write into a File."
 	read fileText1
 	echo $filetext1 >> $filename
+	echo "File append Successful."
     elif [ "$str1" != "yes" ] || [ "$str1" !== "no" ]
     then
         echo "You have entered an invalid option"
